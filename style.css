@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200&family=Bebas+Neue&family=Edu+NSW+ACT+Foundation:wght@500&family=Edu+QLD+Beginner:wght@400;600;700&family=Edu+TAS+Beginner:wght@700&family=Josefin+Sans:wght@300&family=Lato&family=Montserrat:wght@100;600&family=Mouse+Memoirs&family=Poppins:ital,wght@0,500;1,200&family=Quicksand:wght@300&family=Ubuntu:wght@300&family=Work+Sans:wght@200&display=swap');
+
+* {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}
+
+#content {
+    background: rgba(0, 0, 0, 0.5) url(./images/background-5.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-blend-mode: darken;
+    width: 100vw;
+    height: 100vh;
+}
+
+.myBar {
+    padding-top: 30px;
+    display: flex;
+    gap: 15px;
+    height: 10%;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.myBar h1 {
+    flex: 1;
+    font-size: 36px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 70%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.myBar button {
+    padding: 10px 20px;
+    border: solid white;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    right: 0;
+    margin-right: 0;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+
+.myBar button:hover{
+    transform: scale(1.3);
+    transition: all ease 500ms;
+}
+
+.aboutContent {
+    text-align: center;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 50px;
+}
+
+nav {
+    position: fixed;
+    bottom: 30%;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 1.5rem;
+
+}
+
+nav ul li {
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+
+.name {
+    padding-top: 200px;
+    font-size: 5rem;
+    font-weight: 900;
+
+}
+
+.slogan-style {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.selected {
+    border-bottom: 3px solid rgb(255, 60, 0);
+}
+
+.navDiv {
+    position: fixed;
+    bottom: 0;
+    left: 40%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.items {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+.items li:hover{
+    transform: scale(1.3);
+    transition: all ease 500ms;
+}
+
+.items li {
+    margin-right: 80px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.hide {
+    display: none;
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.menu-item {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.food {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    object-fit: scale-down;
+    margin-bottom: 20px;
+}
+
+.menu-div {
+
+    position: relative;
+    left: 25%;
+    max-width: 600px;
+    padding: 50px;
+    /* background: rgba(255, 255, 255, .2) */
+}
+
+.menu-div h2 {
+    font-size: 3rem;
+    padding: 50px;
+    padding-bottom: 20px;
+}
+
+.menu-div p {
+    margin-bottom: 50px;
+}
+
+.menu {
+    background-color: black;
+    /* display: flex; */
+    align-items: center;
+    /* width: 100%;
+    height: 100%; */
+    /* padding: 60px 35px 60px 35px; */
+}
+
+.black-bg{
+    background-color: black;
+}
